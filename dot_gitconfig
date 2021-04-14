@@ -1,0 +1,19 @@
+[alias]
+	update-submodules = submodule update --init --recursive
+	upgrade-submodules = submodule update --init --remote
+[core]
+	excludesFile = ~/.gitignore
+	editor = vim
+[commit]
+	template = ~/.gitmessage
+	verbose = true
+[push]
+	followTags = true
+[pull]
+	rebase = false
+	ff = true
+[init]
+	defaultBranch = master
+[user]
+	name = Edward Amor
+	email = edward.amor3@gmail.com
