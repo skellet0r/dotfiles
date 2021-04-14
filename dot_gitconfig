@@ -2,10 +2,10 @@
 	update-submodules = submodule update --init --recursive
 	upgrade-submodules = submodule update --init --remote
 [core]
-	excludesFile = ~/.gitignore
+	excludesFile = ~/.config/git/ignore
 	editor = vim
 [commit]
-	template = ~/.gitmessage
+	template = ~/.config/git/message
 	verbose = true
 [push]
 	followTags = true
