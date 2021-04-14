@@ -7,3 +7,6 @@ status --is-interactive; and . (pyenv init -|psub)
 status --is-interactive; and . (pyenv virtualenv-init -|psub)
 
 alias ls='exa --all --group-directories-first --long --group'
+
+set -x EDITOR vim
+set -x MANPAGER "vim -M +MANPAGER -"
