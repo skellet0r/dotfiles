@@ -63,4 +63,6 @@ key_bindings = [
     Key([MOD_KEY, "control"], "r", lazy.restart(), desc="Restart Qtile"),
     Key([MOD_KEY, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([MOD_KEY], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
+    # spawn combi rofi menu
+    Key([MOD_KEY], "slash", lazy.spawn("rofi -show combi"), desc="Show the rofi menu"),
 ]
