@@ -65,4 +65,25 @@ key_bindings = [
     Key([MOD_KEY], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     # spawn combi rofi menu
     Key([MOD_KEY], "slash", lazy.spawn("rofi -show combi"), desc="Show the rofi menu"),
+    # Adjust Volume
+    Key(
+        [],
+        "XF86AudioRaiseVolume",
+        lazy.spawn("amixer set Master unmute"),
+        lazy.spawn("amixer set Master 5%+"),
+        desc="Raise Master volume",
+    ),
+    Key(
+        [],
+        "XF86AudioLowerVolume",
+        lazy.spawn("amixer set Master unmute"),
+        lazy.spawn("amixer set Master 5%-"),
+        desc="Decrease Master volume",
+    ),
+    Key(
+        [],
+        "XF86AudioMute",
+        lazy.spawn("amixer set Master toggle"),
+        desc="Toggle volume Mute/Unmute",
+    ),
 ]
