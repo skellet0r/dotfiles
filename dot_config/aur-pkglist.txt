@@ -2,3 +2,5 @@ brave-beta-bin
 code-features
 code-git
 code-marketplace
+networkmanager-dmenu-git
+nordvpn-bin
