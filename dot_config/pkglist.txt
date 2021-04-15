@@ -6,6 +6,7 @@ fish
 git
 go
 gvim
+lastpass-cli
 man-db
 man-pages
 nitrogen
