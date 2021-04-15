@@ -4,6 +4,7 @@ dunst
 exa
 fish
 git
+go
 gvim
 man-db
 man-pages
