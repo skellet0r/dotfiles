@@ -65,6 +65,19 @@ key_bindings = [
     Key([MOD_KEY], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     # spawn combi rofi menu
     Key([MOD_KEY], "slash", lazy.spawn("rofi -show combi"), desc="Show the rofi menu"),
+    # Adjust Brightness
+    Key(
+        [],
+        "XF86MonBrightnessUp",
+        lazy.spawn("xbacklight -inc 5"),
+        desc="Increase the monitor brightness",
+    ),
+    Key(
+        [],
+        "XF86MonBrightnessDown",
+        lazy.spawn("xbacklight -dec 5"),
+        desc="Decrease the monitor brightness",
+    ),
     # Adjust Volume
     Key(
         [],
