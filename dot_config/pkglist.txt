@@ -1,0 +1,12 @@
+chezmoi
+exa
+fish
+qtile
+noto-fonts
+python-iwlib
+python-psutil
+termite
+rofi
+nitrogen
+picom
+dunst
