@@ -21,3 +21,4 @@ termite
 texinfo
 xorg
 xss-lock
+xsecurelock
