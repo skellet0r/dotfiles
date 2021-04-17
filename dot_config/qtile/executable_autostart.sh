@@ -4,7 +4,7 @@
 nitrogen --restore &
 
 # run xinitrc
-sh $HOME/.xinitrc &
+sh ~/.xinitrc &
 
 # start picom
 picom &
