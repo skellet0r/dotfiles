@@ -20,3 +20,4 @@ rofi
 termite
 texinfo
 xorg
+xss-lock

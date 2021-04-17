@@ -2,5 +2,6 @@ brave-beta-bin
 code-features
 code-git
 code-marketplace
+lxpolkit-git
 networkmanager-dmenu-git
 nordvpn-bin
