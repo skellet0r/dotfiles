@@ -1,4 +1,4 @@
 #!/bin/bash
 
-yay -Syu
-yay -S --needed - < ~/.config/aur-pkglist.txt
+yay -Syu --noconfirm
+yay -S --needed --noconfirm - < ~/.config/aur-pkglist.txt

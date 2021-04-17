@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo pacman -Syu
-sudo pacman -S --needed - < ~/.config/pkglist.txt
+sudo pacman -Syu --noconfirm
+sudo pacman -S --needed --noconfirm - < ~/.config/pkglist.txt
