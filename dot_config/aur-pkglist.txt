@@ -1,6 +1,6 @@
 brave-beta-bin
+code
 code-features
-code-git
 code-marketplace
 lxpolkit-git
 networkmanager-dmenu-git
