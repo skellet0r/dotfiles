@@ -65,6 +65,8 @@ key_bindings = [
     Key([MOD_KEY], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     # spawn combi rofi menu
     Key([MOD_KEY], "slash", lazy.spawn("rofi -show combi"), desc="Show the rofi menu"),
+    # lock screen
+    Key([MOD_KEY], "space", lazy.spawn("xsecurelock"), desc="Securely lock the screen"),
     # Adjust Brightness
     Key(
         [],
