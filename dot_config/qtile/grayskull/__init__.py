@@ -4,8 +4,6 @@ import grayskull.layouts as _layouts
 import grayskull.mouse as _mouse
 import grayskull.screens as _screens
 
-from grayskull.hooks import autostart
-
 groups = _groups.groupings
 keys = _keys.key_bindings
 layouts = _layouts.layouts
