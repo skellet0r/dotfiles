@@ -39,7 +39,7 @@ widgets = [
     widget.TextBox("☀️ ", padding=0),
     widget.Sep(),
     # Wireless lan widget
-    widget.Wlan(disconnected_message="☠️ ", format="📡", interface="wlp1s0"),
+    widget.Wlan(disconnected_message="☠️ ", format="📡", interface="wlan0"),
     widget.Sep(),
     # Battery Widget
     widget.Battery(
