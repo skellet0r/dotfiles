@@ -3,9 +3,6 @@
 # set background
 nitrogen --restore &
 
-# run xinitrc
-sh ~/.xinitrc &
-
 # start picom
 picom &
 
@@ -17,3 +14,7 @@ xss-lock xsecurelock &
 
 # graphical polkit agent
 lxpolkit &
+
+# run xinitrc
+sh ~/.xinitrc &
+

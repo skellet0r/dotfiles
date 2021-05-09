@@ -6,9 +6,10 @@ from grayskull.constants import MOD_KEY
 
 groupings = [
     Group("www"),
-    Group("term"),
+    Group("chat"),
     Group("editor"),
+    Group("term"),
     Group("etc"),
 ]
 
-bindings = simple_key_binder(MOD_KEY, "uiop")
+bindings = simple_key_binder(MOD_KEY, "uiop7")

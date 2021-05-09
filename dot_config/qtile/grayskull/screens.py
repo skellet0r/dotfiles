@@ -4,6 +4,7 @@ from libqtile.bar import Bar
 
 import psutil
 
+
 widget_defaults = dict(font="sans", fontsize=14, padding=5)
 extension_defaults = widget_defaults.copy()
 
@@ -12,12 +13,26 @@ def virt_memory_usage():
     """Get current memory usage"""
     return "{:.1%}".format(psutil.virtual_memory().percent / 100)
 
+def parse_gas_now(response):
+    if response["code"] != 200:
+        return "API Error"
+    gas_price = response["data"]["standard"] // 10 ** 9
+    return f"Standard: {gas_price}"
+    
+
 
 widgets = [
     widget.GroupBox(),
     widget.Spacer(),
     # Right portion of bar
     widget.Systray(),
+    widget.Sep(),
+    # GAS NOW API
+    widget.GenPollUrl(
+        url="https://www.gasnow.org/api/v3/gas/price?utm_source=grayskull",
+        parse=parse_gas_now,
+        update_interval=60,
+    ),
     widget.Sep(),
     # Clock widget
     widget.Clock(format="%I:%M %p", update_interval=1),
