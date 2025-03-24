@@ -1,7 +1,0 @@
-brave-beta-bin
-code
-code-features
-code-marketplace
-lxpolkit-git
-networkmanager-dmenu-git
-nordvpn-bin
