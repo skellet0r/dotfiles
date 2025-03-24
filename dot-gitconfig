@@ -1,0 +1,9 @@
+[commit]
+    verbose = true
+[core]
+    excludesFile = ~/.gitignore
+[init]
+    defaultBranch = main
+[user]
+	email = edward.amor3@gmail.com
+	name = Edward Amor
