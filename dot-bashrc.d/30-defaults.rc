@@ -1,2 +1,3 @@
 alias ls="ls --almost-all --color=auto --group-directories-first --human-readable -l"
 command -v vim &>/dev/null && export EDITOR="/usr/bin/vim" || export EDITOR="/usr/bin/nano"
+export MANPAGER="vim +MANPAGER --not-a-term -"
